@@ -1,0 +1,19 @@
+# DES-RSA-Comparison
+Performance Comparison Between DES and RSA Algorithm  
+  
+The goal is to study the performance of the two encryption algorithms of different kinds, i.e., a secret key based algorithm and a public key based algorithm. Again, the evaluation criterion is the length of time that it takes to complete encryption (or decryption) of a message. You may need to use multiple messages of different sizes to reach a conclusion.
+
+# Environment  
+PyCharm 2018.1.5 (Community Edition)  
+Build #PC-181.5540.17, built on August 21, 2018  
+JRE: 1.8.0_152-release-1136-b39 x86_64  
+JVM: OpenJDK 64-Bit Server VM by JetBrains s.r.o  
+macOS 10.14  
+pyhton version: 2.7.10
+
+#Update Log  
+--------Oct. 12th, 2018--------  
+重新创建了一个项目，上一个项目的虚拟环境设置错误，这次推倒重新再来  
+这次还是界面的部分，研究明白了为什么做一个简单的单选框还会不停的报错  
+
+--------To Be Continued------  
