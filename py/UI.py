@@ -33,8 +33,8 @@ entryPassword = Entry(window, show="#").grid(row=4, column=1, sticky=W)
 
 # 加密或是解密
 var = IntVar()
-radioButtonEncrypt = Radiobutton(window, text="Encrypt", variable=var, value=1).grid(row=5)
-radioButtonDecrypt = Radiobutton(window, text="Decrypt", variable=var, value=2).grid(row=6)
+radioButtonEncrypt = Radiobutton(window, text="Encrypt", variable=var, value=1).grid(row=5, column=0, sticky=W)
+radioButtonDecrypt = Radiobutton(window, text="Decrypt", variable=var, value=2).grid(row=6, column=0, sticky=W)
 
 # 窗口循环
 window.mainloop()
