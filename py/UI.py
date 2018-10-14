@@ -17,24 +17,25 @@ labelTitle = Label(window,
                    text="Performance Comparison Between DES and RSA Algorithm",
                    font=("Arial", 22),
                    height=4
-                   ).grid(row=0, column=1, sticky=W)
+                   ).grid(row=0, column=0, columnspan=8, sticky=W)
 
 # 明/密文输入标签
-labelInput = Label(window, text="Input:", width=8,height=2).grid(row=2, column=0, sticky=W)
+labelInput = Label(window, text="Input:").grid(row=1, column=0, sticky=W)
 
 # 密码输入标签
-labelPassword = Label(window, text="Password:", width=8, height=2).grid(row=4, column=0, sticky=W)
+labelPassword = Label(window, text="Password:").grid(row=1, column=5, sticky=W)
 
 # 明/密文输入框
-entryInput = Entry(window).grid(row=2, column=1, sticky=W)
+entryInput = Entry(window).grid(row=1, column=1, sticky=W)
 
 # 密码输入框
-entryPassword = Entry(window, show="#").grid(row=4, column=1, sticky=W)
+entryPassword = Entry(window, show="#").grid(row=1, column=6, sticky=W)
 
 # 加密或是解密
 var = IntVar()
-radioButtonEncrypt = Radiobutton(window, text="Encrypt", variable=var, value=1).grid(row=5, column=0, sticky=W)
-radioButtonDecrypt = Radiobutton(window, text="Decrypt", variable=var, value=2).grid(row=6, column=0, sticky=W)
+var.set(1)
+radioButtonEncrypt = Radiobutton(window, text="Encrypt", variable=var, value=1).grid(row=2, column=5, sticky=W)
+radioButtonDecrypt = Radiobutton(window, text="Decrypt", variable=var, value=2).grid(row=3, column=5, sticky=W)
 
 # 窗口循环
 window.mainloop()
