@@ -23,13 +23,13 @@ labelTitle = Label(window,
 labelInput = Label(window, text="Input:").grid(row=1, column=0, sticky=W)
 
 # 密码输入标签
-labelPassword = Label(window, text="Password:").grid(row=1, column=5, sticky=W)
+labelPassword = Label(window, text="Password:").grid(row=1, column=2, sticky=W)
 
 # 明/密文输入框
 entryInput = Entry(window).grid(row=1, column=1, sticky=W)
 
 # 密码输入框
-entryPassword = Entry(window, show="#").grid(row=1, column=6, sticky=W)
+entryPassword = Entry(window, show="#").grid(row=1, column=3, sticky=W)
 
 # 加密或是解密
 var = IntVar()
