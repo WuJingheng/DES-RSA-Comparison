@@ -9,11 +9,13 @@ Build #PC-181.5540.17, built on August 21, 2018
 JRE: 1.8.0_152-release-1136-b39 x86_64  
 JVM: OpenJDK 64-Bit Server VM by JetBrains s.r.o  
 macOS 10.14  
-pyhton version: 3.7.0  
+pyhton version: 3.6.7 rc2   
   
 # Reference
 1. Terry Jan Reedy from  stack overflow  
 https://stackoverflow.com/questions/52806408/python-tkinter-radiobutton-and-button-set-text-attribute-but-shows-nothing-on-m  
+2. liupengs from 开源中国：python实现DES加密 https://my.oschina.net/liupengs/blog/124230  
+3. 冯二阳家的刘小洋 from CSDN：DES加密解密算法之python实现版 https://blog.csdn.net/u013005150/article/details/25804787  
   
 # Update Log  
 --------Oct. 12th, 2018--------  
